@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD2-PASSAPOL", "CRUD2-PASSAPOL\CRUD2-PASSAPOL.csproj", "{363E08F1-170F-4870-AA4A-61E091471042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363E08F1-170F-4870-AA4A-61E091471042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363E08F1-170F-4870-AA4A-61E091471042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363E08F1-170F-4870-AA4A-61E091471042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363E08F1-170F-4870-AA4A-61E091471042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDE649FA-6E36-4D26-B9CD-002DDE505F43}
+	EndGlobalSection
+EndGlobal
