@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj": {}
+    "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj": {
+    "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj",
+        "projectUniqueName": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj",
         "projectName": "CRUD2-PASSAPOL",
-        "projectPath": "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj",
-        "packagesPath": "C:\\Users\\INFORMATICS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\obj\\",
+        "projectPath": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj",
+        "packagesPath": "C:\\Users\\passa\\.nuget\\packages\\",
+        "outputPath": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\INFORMATICS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\passa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

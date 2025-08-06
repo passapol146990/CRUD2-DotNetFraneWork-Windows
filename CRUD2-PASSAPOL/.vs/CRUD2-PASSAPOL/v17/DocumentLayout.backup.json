@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\",
+  "WorkspaceRootPath": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{363E08F1-170F-4870-AA4A-61E091471042}|CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj|c:\\users\\informatics\\documents\\2067\\crud2-dotnetfranework-windows\\crud2-passapol\\crud2-passapol\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{363E08F1-170F-4870-AA4A-61E091471042}|CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj|d:\\github\\crud2-dotnetfranework-windows\\crud2-passapol\\crud2-passapol\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363E08F1-170F-4870-AA4A-61E091471042}|CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj|solutionrelative:crud2-passapol\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363E08F1-170F-4870-AA4A-61E091471042}|CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj|d:\\github\\crud2-dotnetfranework-windows\\crud2-passapol\\crud2-passapol\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{363E08F1-170F-4870-AA4A-61E091471042}|CRUD2-PASSAPOL\\CRUD2-PASSAPOL.csproj|solutionrelative:crud2-passapol\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,13 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\HomePage.cs",
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\HomePage.cs",
               "RelativeDocumentMoniker": "CRUD2-PASSAPOL\\HomePage.cs",
-              "ToolTip": "C:\\Users\\INFORMATICS\\Documents\\2067\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\HomePage.cs [Design]",
+              "ToolTip": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\HomePage.cs",
+              "RelativeToolTip": "CRUD2-PASSAPOL\\HomePage.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwGUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T14:21:59.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.cs [Design]",
+              "DocumentMoniker": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\HomePage.cs",
+              "RelativeDocumentMoniker": "CRUD2-PASSAPOL\\HomePage.cs",
+              "ToolTip": "D:\\GITHUB\\CRUD2-DotNetFraneWork-Windows\\CRUD2-PASSAPOL\\CRUD2-PASSAPOL\\HomePage.cs [Design]",
               "RelativeToolTip": "CRUD2-PASSAPOL\\HomePage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T09:13:51.478Z",
+              "WhenOpened": "2025-08-06T14:00:16.763Z",
               "EditorCaption": " [Design]"
             }
           ]
