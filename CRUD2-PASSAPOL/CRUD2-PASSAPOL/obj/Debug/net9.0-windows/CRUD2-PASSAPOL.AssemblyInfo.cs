@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD2-PASSAPOL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf1006d6c730ca773ede14d5e04ceaab473753c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d48c10621c0395760c9b18c62bcb544e1456b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD2-PASSAPOL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD2-PASSAPOL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

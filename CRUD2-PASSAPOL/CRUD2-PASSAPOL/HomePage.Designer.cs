@@ -46,9 +46,28 @@
             label1 = new Label();
             GrideView_Show_Customers = new DataGridView();
             tabPage2 = new TabPage();
+            dataGridView1 = new DataGridView();
+            label5 = new Label();
+            P_input_name = new TextBox();
+            label6 = new Label();
+            P_input_type = new TextBox();
+            label7 = new Label();
+            P_input_price = new TextBox();
+            label8 = new Label();
+            P_input_description = new TextBox();
+            label9 = new Label();
+            Show_image = new PictureBox();
+            P_button_add = new Button();
+            P_delete = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            openFileDialog1 = new OpenFileDialog();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)GrideView_Show_Customers).BeginInit();
+            tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Show_image).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -217,6 +236,21 @@
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(button3);
+            tabPage2.Controls.Add(P_delete);
+            tabPage2.Controls.Add(button4);
+            tabPage2.Controls.Add(P_button_add);
+            tabPage2.Controls.Add(Show_image);
+            tabPage2.Controls.Add(P_input_description);
+            tabPage2.Controls.Add(P_input_price);
+            tabPage2.Controls.Add(P_input_type);
+            tabPage2.Controls.Add(P_input_name);
+            tabPage2.Controls.Add(label9);
+            tabPage2.Controls.Add(label8);
+            tabPage2.Controls.Add(label7);
+            tabPage2.Controls.Add(label6);
+            tabPage2.Controls.Add(label5);
+            tabPage2.Controls.Add(dataGridView1);
             tabPage2.Location = new Point(4, 29);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
@@ -224,6 +258,143 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Products";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(436, 17);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(424, 427);
+            dataGridView1.TabIndex = 0;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label5.Location = new Point(25, 44);
+            label5.Name = "label5";
+            label5.Size = new Size(51, 20);
+            label5.TabIndex = 1;
+            label5.Text = "Name";
+            // 
+            // P_input_name
+            // 
+            P_input_name.Location = new Point(148, 41);
+            P_input_name.Name = "P_input_name";
+            P_input_name.Size = new Size(210, 27);
+            P_input_name.TabIndex = 2;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label6.Location = new Point(25, 89);
+            label6.Name = "label6";
+            label6.Size = new Size(42, 20);
+            label6.TabIndex = 1;
+            label6.Text = "Type";
+            // 
+            // P_input_type
+            // 
+            P_input_type.Location = new Point(148, 86);
+            P_input_type.Name = "P_input_type";
+            P_input_type.Size = new Size(210, 27);
+            P_input_type.TabIndex = 2;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label7.Location = new Point(25, 133);
+            label7.Name = "label7";
+            label7.Size = new Size(43, 20);
+            label7.TabIndex = 1;
+            label7.Text = "Price";
+            // 
+            // P_input_price
+            // 
+            P_input_price.Location = new Point(148, 130);
+            P_input_price.Name = "P_input_price";
+            P_input_price.Size = new Size(210, 27);
+            P_input_price.TabIndex = 2;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label8.Location = new Point(25, 176);
+            label8.Name = "label8";
+            label8.Size = new Size(89, 20);
+            label8.TabIndex = 1;
+            label8.Text = "Description";
+            // 
+            // P_input_description
+            // 
+            P_input_description.Location = new Point(148, 173);
+            P_input_description.Multiline = true;
+            P_input_description.Name = "P_input_description";
+            P_input_description.Size = new Size(210, 105);
+            P_input_description.TabIndex = 2;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label9.Location = new Point(25, 287);
+            label9.Name = "label9";
+            label9.Size = new Size(53, 20);
+            label9.TabIndex = 1;
+            label9.Text = "Image";
+            // 
+            // Show_image
+            // 
+            Show_image.BackColor = Color.DarkGray;
+            Show_image.Location = new Point(148, 287);
+            Show_image.Name = "Show_image";
+            Show_image.Size = new Size(210, 123);
+            Show_image.TabIndex = 3;
+            Show_image.TabStop = false;
+            // 
+            // P_button_add
+            // 
+            P_button_add.Location = new Point(25, 429);
+            P_button_add.Name = "P_button_add";
+            P_button_add.Size = new Size(94, 29);
+            P_button_add.TabIndex = 4;
+            P_button_add.Text = "Add";
+            P_button_add.UseVisualStyleBackColor = true;
+            // 
+            // P_delete
+            // 
+            P_delete.Location = new Point(138, 429);
+            P_delete.Name = "P_delete";
+            P_delete.Size = new Size(94, 29);
+            P_delete.TabIndex = 4;
+            P_delete.Text = "Delete";
+            P_delete.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(251, 429);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 4;
+            button3.Text = "Update";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(25, 310);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 4;
+            button4.Text = "Open File";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
             // 
             // HomePage
             // 
@@ -241,6 +412,10 @@
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)GrideView_Show_Customers).EndInit();
+            tabPage2.ResumeLayout(false);
+            tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Show_image).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -264,5 +439,21 @@
         private Button Button_Update_Customer;
         private Button Button_Delete_Customer;
         private Button Button_Add_Customer;
+        private TextBox P_input_name;
+        private Label label5;
+        private DataGridView dataGridView1;
+        private TextBox P_input_description;
+        private TextBox P_input_price;
+        private TextBox P_input_type;
+        private Label label8;
+        private Label label7;
+        private Label label6;
+        private Button button3;
+        private Button P_delete;
+        private Button button4;
+        private Button P_button_add;
+        private PictureBox Show_image;
+        private Label label9;
+        private OpenFileDialog openFileDialog1;
     }
 }
